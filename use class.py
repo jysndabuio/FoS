@@ -19,7 +19,9 @@ print(hans_meier.get_street())
 
 from Circle import Circle
 
-circle1 = Circle(10)
+r = int(input("Please enter the radius: "))
+
+circle1 = Circle(r)
 
 print(circle1.getArea())
 
